@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "input": "What is the capital of France?",
+        "expected_tools": ["web_search"],
+        "expected_keywords": ["Paris"]
+    },
+    {
+        "id": "2",
+        "input": "Who is the founder of Google?",
+        "expected_tools": ["web_search"],
+        "expected_keywords": ["Larry Page", "Sergey Brin"]
+    },
+    {
+        "id": "3",
+        "input": "Calculate what is 256 * 4?",
+        "expected_tools": ["calculate"],
+        "expected_keywords": ["1024"]
+    },
+    {
+        "id": "4",
+        "input": "What is the population of Tokyo?",
+        "expected_tools": ["web_search"],
+        "expected_keywords": ["37.4 million"]
+    },
+    {
+        "id": "5",
+        "input": "Solve this equation: (150 - 50) / 2",
+        "expected_tools": ["calculate"],
+        "expected_keywords": ["50"]
+    }
+]
