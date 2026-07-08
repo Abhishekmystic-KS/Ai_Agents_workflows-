@@ -1,6 +1,6 @@
-# Gemini AI Agent Boilerplate (EDD Architecture)
+# AI Agent Boilerplate (EDD Architecture)
 
-A modular, lightweight AI Agent framework built from scratch using the official **Google GenAI Python SDK** and Gemini. This project implements a custom **Perceive-Plan-Act** reasoning loop, tool execution registry, and an automated evaluation suite to practice **Evals-Driven Development (EDD)**.
+A modular, lightweight AI Agent framework built from scratch using the official **Google GenAI Python SDK**. This project uses a custom **Perceive-Plan-Act** reasoning loop, tool execution registry, and an automated evaluation suite to practice **Evals-Driven Development (EDD)**.
 
 ---
 
@@ -40,6 +40,19 @@ The repository is structured following professional AI engineering patterns:
    * **Tool Routing Accuracy**: Did it call the correct tools in sequence?
    * **Semantic/Keyword Match**: Does the final response contain the expected keywords?
 4. **Performance & Token Monitoring**: Tracks token consumption (input vs output) and execution latency for cost-optimization.
+
+---
+
+## 🧪 Harness Engineering (Simple Explanation)
+
+Harness engineering means building a safe and repeatable way to test your agent.
+
+In this project, the "harness" is the eval setup (`evals/dataset.json` + `evals/run_evals.py`):
+- You give fixed test inputs.
+- You define what good output should look like.
+- You run checks automatically after every change.
+
+This makes improvement easier because you can quickly see what got better and what broke.
 
 ---
 
