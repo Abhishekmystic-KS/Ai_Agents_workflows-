@@ -56,6 +56,17 @@ This makes improvement easier because you can quickly see what got better and wh
 
 ---
 
+## 🧠 Lesson: What Is a Context Window?
+
+A **context window** is the amount of text an AI model can "see" at one time (your prompt, instructions, tool outputs, and recent conversation).
+
+- If important details fit inside the context window, the model can use them.
+- If the conversation gets too long, older details may fall out of the window and be forgotten.
+
+In simple terms: bigger context window = better memory for longer tasks.
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Installation
